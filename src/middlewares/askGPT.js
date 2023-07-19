@@ -41,7 +41,7 @@ export async function askGPT(req, res, next){
 
         history.push([user_input, completion_text]);
 
-        req.retorno =  completion_text
+        req.retorno = JSON.stringify(completion_text) //typeof completion_text === 'string' ? JSON.parse(completion_text) : completion_text
         next()
 
     } catch (error) {

@@ -1,6 +1,7 @@
 const message = `
 Você deve retornar o que pedi na ordem que pedi e APENAS OS NUMEROS. Caso não encontre o que pedi retorne "NOT". Retorne os resultados em formato de 
-        Objeto Javascript, onde as propriedades do objeto devem ser exatamente: {
+        Objeto Javascript, onde as propriedades do objeto devem ser exatamente: 
+        {
             nota: "numero encontrado",
             emissao: "data encontrada",
             valorServico: "valor encontrado",
